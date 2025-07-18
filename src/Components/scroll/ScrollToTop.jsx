@@ -11,7 +11,7 @@ function ScrollToTop() {
         ariaLabel="SpeedDial basic example"
         sx={{
           position: "fixed",
-          bottom: "4.5rem",
+          bottom: "9rem",
           right: 16,
           ".MuiButtonBase-root": {
             borderRadius: "10px",
