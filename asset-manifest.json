@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-commerse-materialUI/static/css/main.70bcce64.css",
-    "main.js": "/E-commerse-materialUI/static/js/main.72cb3bf7.js",
+    "main.css": "/E-commerse-materialUI/static/css/main.aaf6180c.css",
+    "main.js": "/E-commerse-materialUI/static/js/main.2986372b.js",
     "static/media/1.jpg": "/E-commerse-materialUI/static/media/1.49556f4e563d580dc11f.jpg",
     "static/media/final.jpg": "/E-commerse-materialUI/static/media/final.55730da71a21aa7e7910.jpg",
     "static/media/images.jpg": "/E-commerse-materialUI/static/media/images.77daa2a9505182469629.jpg",
@@ -61,11 +61,11 @@
     "static/media/Amex.svg": "/E-commerse-materialUI/static/media/Amex.f758d322c205cb1768b14805643e1b41.svg",
     "static/media/facebook-filled-white.f92d5efd.svg": "/E-commerse-materialUI/static/media/facebook-filled-white.f92d5efd.121212d201e56ba6cfdf3565f0558f56.svg",
     "index.html": "/E-commerse-materialUI/index.html",
-    "main.70bcce64.css.map": "/E-commerse-materialUI/static/css/main.70bcce64.css.map",
-    "main.72cb3bf7.js.map": "/E-commerse-materialUI/static/js/main.72cb3bf7.js.map"
+    "main.aaf6180c.css.map": "/E-commerse-materialUI/static/css/main.aaf6180c.css.map",
+    "main.2986372b.js.map": "/E-commerse-materialUI/static/js/main.2986372b.js.map"
   },
   "entrypoints": [
-    "static/css/main.70bcce64.css",
-    "static/js/main.72cb3bf7.js"
+    "static/css/main.aaf6180c.css",
+    "static/js/main.2986372b.js"
   ]
 }
