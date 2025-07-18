@@ -30,7 +30,7 @@ function FixedButtonNavBar() {
       py:"10px",
       bgcolor:"background.paper",
       position:"fixed",
-      bottom:0,
+      bottom:"-2px",
       width:"100%",
       zIndex:"100",
       display:"flex",

@@ -35,4 +35,9 @@ body{
   max-width: 95% !important;
   padding: 0 !important;
 }
+
+
+#nprogress .bar {
+  background: red !important;
+}
  

@@ -27,6 +27,11 @@ import Login from "./Components/Authentification/Login";
 import Register from "./Components/Authentification/Register";
 import Reset from "./Components/Authentification/Reset";
 import FixedHeaderNavBar from "./Components/Header/FixedHeaderNavBar";
+import { useEffect, useState } from "react";
+import RouteWatcher from "./RouteWatcher";
+import Loader from "./Components/Loader";
+
+
 
 function MainLayout() {
 
@@ -73,6 +78,16 @@ function Other() {
 function App() {
   const [theme, colorMode] = useMode();
 
+  const [initialLoading, setInitialLoading] = useState(true);
+  useEffect(() => {
+    
+    const timer = setTimeout(()=> setInitialLoading(false), 1000)
+  
+    return () => clearTimeout(timer);
+  }, [])
+  
+
+
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
@@ -80,9 +95,24 @@ function App() {
         <DrawerRevueContextProvider>
           <DrawerProvider>
             <ShpingCartProvider>
+
+
+              {
+                
+                
+                initialLoading ? <Loader />
+                :
+
+                <>
+                
+                <RouteWatcher/>
+
               <Routes>
                 <Route element={<MainLayout />}>
+
+                
                   <Route path="/" element={<Home />} />
+              
 
                   <Route
                     path="/checkout-alternative"
@@ -120,6 +150,14 @@ function App() {
                   <Route path="*" element={<h1>Not Page Found</h1>} />
                 </Route>
               </Routes>
+                </>
+                
+
+               
+
+
+              }
+
             </ShpingCartProvider>
           </DrawerProvider>
         </DrawerRevueContextProvider>
