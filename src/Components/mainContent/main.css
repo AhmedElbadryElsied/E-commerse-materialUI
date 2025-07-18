@@ -1,0 +1,40 @@
+.myButton{
+    border-radius: 5px !important;
+    border: 1px solid #888 !important;
+    text-transform: capitalize !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    font-size: 16px !important;
+}
+.Mui-selected{
+    border: 1px solid rgba(233, 69, 96, 0.5) !important;
+    color: #e94560 !important;
+    background: initial !important;
+}
+
+
+/* Product Details Style */
+
+.hover:hover{
+    border: 1px solid rgba(233, 69, 96, 0.5) !important;
+    
+    scale: 1.1;
+}
+
+
+
+@keyframes moveRight {
+    0% {
+      scale: 0.5;
+    }
+    100% {
+      scale: 1;
+    }
+  }
+
+  
+
+.card-animation{
+    animation: moveRight 0.5s ease-in-out alternate;
+    
+}
